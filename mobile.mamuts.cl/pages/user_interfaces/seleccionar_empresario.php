@@ -22,7 +22,7 @@
     </div>
 
 
-    <div class="collapse" id="search">
+    <div class="collapse" id="search" style="margin: 0 auto; text-align: center;">
       <div class="container-fluid">
         <input type="text" id="textfield" placeholder="Buscar empresario" class="form-control" onkeyup="buscar()">
         </input>
@@ -33,12 +33,12 @@
   </nav>
 
 
-  <div class="card-deck" style="border-color: #170963; gap: 10px; flex-wrap: wrap;">
+  <div class="container">
+    <div class="col-12 col-md-6 col-lg-3">
+      <div id="empresarios" style="width: 50rem; padding: 10px; margin: 0 auto;" class="row">
 
-    <div id="empresarios" style="width: 50rem; padding: 10px; margin: 0 auto; overflow-x: scroll;" class="row">
-
+      </div>
     </div>
-
   </div>
 
 

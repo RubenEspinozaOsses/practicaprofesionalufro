@@ -26,11 +26,12 @@ def allowed_file(filename):
 
 @app.route('/api/pdf/upload', methods=['POST'])
 def upload_file():
-    return "<p>"+str(request.files[0])+"</p>"
+    #return "<p>"+str(request.files[0])+"</p>"
     file = dict(request.form)
     
-    #return "<p>" + str(file['FileContents'])  +  "</p>"
     
+    return "<p>" + str(file)  +  "</p>"
+    #return "<p>Se recivio</p>"
     
     
     with open(file) as pdf:
